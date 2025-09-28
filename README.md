@@ -59,8 +59,8 @@ CREATE SEQUENCE task_seq START WITH 1 INCREMENT BY 1;
 ## Setup
 1. Clone the repository
 ```bash
-git clone https://github.com/angelariasus/project-management-system
-cd project-management-system
+git clone https://github.com/angelariasus/model-view-controller
+cd model-view-controller
 ```
 2. Configure Oracle connection
 Edit the file `src/main/java/com/system/util/DBConnection.java`:
