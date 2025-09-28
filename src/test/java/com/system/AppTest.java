@@ -1,20 +1,10 @@
 package com.system;
 
-import static org.junit.Assert.assertTrue;
+import com.system.view.MenuView;
 
-import org.junit.Test;
-
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+public class App {
+    public static void main(String[] args) {
+        MenuView menu = new MenuView();
+        menu.start();
     }
 }
